@@ -1,0 +1,7 @@
+name: GarbageCan
+main: net.sybar.garbagecan.main
+version: "1.0.0"
+api: ["1.0.7"]
+load: POSTWORLD
+author: soradore
+description: Garbage can
