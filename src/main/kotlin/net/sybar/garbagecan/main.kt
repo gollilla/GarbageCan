@@ -25,7 +25,7 @@ class main: PluginBase(), Listener {
                 var now = System.currentTimeMillis() / 1000
                 var time = this.double_touch.get(name)
                 var diff = (now - time!!)
-                System.out.println(diff)
+                //System.out.println(diff)
                 if(diff < 1){
                     player.getInventory().remove(item)
                     player.sendMessage("§aゴミ箱に捨てました")
